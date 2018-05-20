@@ -17,6 +17,7 @@ module.exports = (env) => {
     entry: {
       "project": path.resolve(__dirname, 'index.js'),
     },
+    mode: 'production',
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: 'js/[name].[hash].js',
